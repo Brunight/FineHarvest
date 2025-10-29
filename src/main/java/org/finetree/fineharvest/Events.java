@@ -132,7 +132,7 @@ public class Events implements Listener  {
 
     private boolean isHoe(Material material) {
         return switch (material) {
-            case WOODEN_HOE, STONE_HOE, IRON_HOE, GOLDEN_HOE, DIAMOND_HOE, NETHERITE_HOE -> true;
+            case WOODEN_HOE, STONE_HOE, COPPER_HOE, IRON_HOE, GOLDEN_HOE, DIAMOND_HOE, NETHERITE_HOE -> true;
             default -> false;
         };
     }
